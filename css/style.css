@@ -1,0 +1,110 @@
+.jumbotron {
+    text-shadow: #000 1px 1px;
+}
+
+.background-header {
+    background-image: url("images/museum_build.jpg");
+    background-color: #fafbfc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.btn-primer {
+    background-color: #00bd8e;
+    border-color: #0b9b6b;
+    color: #fff;
+    text-shadow: 0px 0px;
+}
+
+.btn-primer:hover {
+    background-color: #038c6a;
+    color: #fff;
+    text-shadow: 0px 0px;
+}
+
+.service-style {
+    margin-top: 15px;
+    background-color: #fafbfc;
+}
+
+.text-green {
+    color: #0b9b6b;
+}
+
+h2:before,
+h2:after {
+    background-color: #0b9b6b;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h2::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h2::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.button-sekunder {
+    background-color: transparent;
+    border-color: #dbdbdb;
+    color: #0b9b6b;
+}
+
+.button-sekunder:hover {
+    background-color: #0b9b6b;
+    border-color: #dbdbdb;
+    color: #fff;
+}
+
+.cover {
+    background: no-repeat center/cover;
+}
+
+.navbar-logo {
+    max-height: 40px;
+    max-width: 100%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 2px;
+}
+
+.pagination a,
+.pagination .fas {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.pagination a:hover {
+    background-color: #f5f5f5;
+}
+
+.pagination .active a {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
